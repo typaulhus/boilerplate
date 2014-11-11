@@ -1,0 +1,18 @@
+// Components
+
+
+	/*  Navigation  */
+.site-header {
+	background-color: $tertiary-color;
+	padding: .5em;
+	a {
+		color: #fff;
+		height: 100%;
+		margin: 0 1em;
+		padding: .5em;
+		text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}

@@ -1,0 +1,71 @@
+@import "compass";
+@import "bootstrap";
+
+// Use Compass
+@import "compass";
+@import "bootstrap";
+
+// Reset using Normalize
+@import "reset";
+
+// Import Open Sans font from Google
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+// Set variables and reusable mixins
+@import "config";
+@import "mixins";
+
+
+// Import typical layout sass modules
+@import "grid";
+@import "type";
+@import "media";
+@import "links";
+@import "tables";
+@import "forms";
+@import "notifications";
+@import "other";
+@import "components";
+
+// Use Font Awesome for icons
+@import "icons";
+
+// Specific project styles, add any section specific sass modules here
+@import "layout";
+@import "styleguide_only";
+
+// Additional styles to think about
+@import "responsive";
+@import "print";
+
+// If IE support is needed
+@import "ie";
+
+// For anything quick and dirty that needs thrown in
+@import "shame";
+
+
+//Bootstrap Queries
+
+// body {
+//   @include container-fixed();
+//   @media (min-width: $screen-sm-min) {
+//     width: $container-sm;
+//   }
+//   @media (min-width: $screen-md-min) {
+//     width: $container-md;
+//   }
+//   @media (min-width: $screen-lg-min) {
+//     width: $container-lg;
+//   }
+//   .site-header {
+//     @include make-row();
+//     .site-logo {
+//        @include make-sm-column(3);
+//     }
+//     .site-nav {
+//       @include make-sm-column(9);
+//     }
+//   }
+// }
